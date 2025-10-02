@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
 
   schedule:
-    # - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'
     # 表达式生成  https://crontab.guru/
-    #- cron: '18 * * * *'
+    # - cron: '18 * * * *'
 
 jobs:
   main:
