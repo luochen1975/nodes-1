@@ -172,25 +172,30 @@ proxies:
   - {name: 08-0346-TW, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: 24deb4fe-cdb8-4832-b8f4-4126493041dd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 08-0347-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0352-CA, server: 148.113.209.118, port: 443, type: vmess, uuid: 08745918-d560-4f07-8f37-a103a4799bac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwsss}, udp: true}
-  - {name: 08-0369-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 08-0361-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 08-0365-NL, server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 08-0370-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0371-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 08-0372-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0374-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0378-NL, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0380-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0388-NL, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0393-NL, server: 80.242.56.218, port: 50042, type: ss, cipher: chacha20-ietf-poly1305, password: Pmv1JTWlDUABkAbOnaJ4Tf, udp: true}
   - {name: 08-0395-NL, server: 5.255.103.217, port: 37757, type: trojan, password: XWnVX2ASHl, sni: moshali.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fmoshaliplus", headers: {Host: moshali.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: 08-0404-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 08-0399-LT, server: 45.87.175.165, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 08-0405-LT, server: 45.87.175.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 08-0406-LT, server: 45.87.175.185, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 08-0416-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0417-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0418-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0420-US, server: vps.my-youth.asia, port: 17891, type: vmess, uuid: 8f2d400c-0879-4076-9b87-2302f00a135b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.my-youth.asia}}, udp: true}
+  - {name: 08-0421-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0422-US, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 08-0423-US, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 08-0424-US, server: 38.110.1.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 08-0425-US, server: 38.110.1.122, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 08-0432-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+  - {name: 08-0434-US, server: 64.81.118.54, port: 20521, type: vmess, uuid: 375c4b8f-b646-45c1-96a8-e9d86d4163e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0435-US, server: 154.9.254.63, port: 20521, type: vmess, uuid: d824764a-954e-4c75-9116-f6e5eba944a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0441-RELAY, server: 172.67.156.25, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.zipzap.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Faioproxybot%25252F129.150.49.58-18650", headers: {Host: aio.zipzap.biz.id}}, udp: true}
   - {name: 08-0443-TW, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 24deb4fe-cdb8-4832-b8f4-4126493041dd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
@@ -203,6 +208,7 @@ proxies:
   - {name: 08-0452-RELAY, server: ip.sb, port: 8443, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: fofang.pages.dev}}, udp: true}
   - {name: 08-0454-US, server: map.wimax.cc, port: 8443, type: trojan, password: WyRE1b2elC, skip-cert-verify: true, udp: true}
   - {name: 08-0463-FI, server: fin.outlinebot1.ru, port: 5904, type: ss, cipher: chacha20-ietf-poly1305, password: 5TZnwPb23pQS39lIucspJw, udp: true}
+  - {name: 08-0469-FR, server: 51.68.191.233, port: 80, type: vmess, uuid: f0eda072-9ae8-494c-a495-215fa5729467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
   - {name: 08-0471-DE, server: 185.177.229.245, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1%252BihlfKg826H, udp: true}
   - {name: 08-0472-DE, server: 57.129.59.193, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-0484-JP, server: 116.206.93.165, port: 39975, type: vmess, uuid: bb892078-98ef-4321-edf4-4c408edd5ae2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -228,6 +234,7 @@ proxies:
   - {name: 08-0527-RU, server: 45.67.230.79, port: 11052, type: vmess, uuid: 314185f7-931d-4656-922d-0857e7afd224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-0535-ES, server: 5.188.181.201, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
   - {name: 08-0538-HK, server: 45.136.12.37, port: 20521, type: vmess, uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-0539-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 08-0540-HK, server: 8.217.246.150, port: 54288, type: vmess, uuid: c84014f1-9de0-49f4-b751-ab8d7928bf9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0543-HK, server: 47.238.252.154, port: 20521, type: vmess, uuid: 87bb9d49-6345-42d4-9ee4-91dd8a6ca544, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0544-TW, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 24deb4fe-cdb8-4832-b8f4-4126493041dd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
@@ -258,7 +265,6 @@ proxies:
   - {name: 08-0572-VN, server: 103.186.154.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0573-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 08-0577-RS, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0579-GR, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0583-TW, server: 83.147.12.99, port: 56018, type: vmess, uuid: ddb1f976-4239-4086-833f-f9b275f637a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0588-TW, server: 1.165.65.62, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 3fa9a851-0b44-403a-bc73-3901bf729d07, udp: true}
   - {name: 08-0589-TW, server: 1.165.75.250, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 674546d7-0680-4df2-b95c-53b455f35a19, udp: true}
@@ -418,6 +424,7 @@ proxies:
   - {name: 23-1092-FR, server: 146.59.55.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-1097-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 23-1102-GB, server: 195.22.157.104, port: 55700, type: trojan, password: 1sbtkLK7F3, sni: joon.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: joon.arshiacomplus.dpdns.org}}, udp: true}
+  - {name: 23-1103-US, server: 51.81.203.233, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rs4.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 23-1104-IS, server: 212.192.214.159, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v%2523NSFP_LG_bJ, udp: true}
   - {name: 23-1107-SE, server: 91.92.40.78, port: 2060, type: vmess, uuid: 14d19b6f-42ba-467c-b90d-45b48d0d3fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-1114-LT, server: 185.237.185.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -524,13 +531,7 @@ proxies:
   - {name: _油管：全网最强白嫖 169, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: _油管：全网最强白嫖 17, server: jpaz2.xmrth-node.xyz, port: 14025, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
   - {name: _油管：全网最强白嫖 170, server: 5.183.176.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 389, server: 5.183.176.83, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 390, server: 5.183.176.91, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 391, server: 5.183.176.80, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 392, server: 5.183.176.92, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 393, server: 89.31.126.147, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 394, server: 5.183.176.81, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 395, server: 89.31.126.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 396, server: 5.183.176.81, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 397, server: 89.31.126.225, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 398, server: 5.183.176.83, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -786,25 +787,30 @@ proxy-groups:
       - 08-0346-TW
       - 08-0347-US
       - 08-0352-CA
-      - 08-0369-LT
+      - 08-0361-LT
+      - 08-0365-NL
+      - 08-0370-LT
       - 08-0371-LT
-      - 08-0372-LT
       - 08-0374-FR
       - 08-0378-NL
       - 08-0380-NL
       - 08-0388-NL
       - 08-0393-NL
       - 08-0395-NL
-      - 08-0404-LT
+      - 08-0399-LT
+      - 08-0405-LT
+      - 08-0406-LT
       - 08-0416-US
       - 08-0417-US
       - 08-0418-US
       - 08-0420-US
+      - 08-0421-US
       - 08-0422-US
       - 08-0423-US
       - 08-0424-US
       - 08-0425-US
       - 08-0432-US
+      - 08-0434-US
       - 08-0435-US
       - 08-0441-RELAY
       - 08-0443-TW
@@ -817,6 +823,7 @@ proxy-groups:
       - 08-0452-RELAY
       - 08-0454-US
       - 08-0463-FI
+      - 08-0469-FR
       - 08-0471-DE
       - 08-0472-DE
       - 08-0484-JP
@@ -842,6 +849,7 @@ proxy-groups:
       - 08-0527-RU
       - 08-0535-ES
       - 08-0538-HK
+      - 08-0539-HK
       - 08-0540-HK
       - 08-0543-HK
       - 08-0544-TW
@@ -872,7 +880,6 @@ proxy-groups:
       - 08-0572-VN
       - 08-0573-VN
       - 08-0577-RS
-      - 08-0579-GR
       - 08-0583-TW
       - 08-0588-TW
       - 08-0589-TW
@@ -1032,6 +1039,7 @@ proxy-groups:
       - 23-1092-FR
       - 23-1097-VN
       - 23-1102-GB
+      - 23-1103-US
       - 23-1104-IS
       - 23-1107-SE
       - 23-1114-LT
@@ -1138,13 +1146,7 @@ proxy-groups:
       - _油管：全网最强白嫖 169
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 170
-      - _油管：全网最强白嫖 389
-      - _油管：全网最强白嫖 390
-      - _油管：全网最强白嫖 391
-      - _油管：全网最强白嫖 392
-      - _油管：全网最强白嫖 393
       - _油管：全网最强白嫖 394
-      - _油管：全网最强白嫖 395
       - _油管：全网最强白嫖 396
       - _油管：全网最强白嫖 397
       - _油管：全网最强白嫖 398
@@ -1331,7 +1333,9 @@ proxy-groups:
       - 06-0321-VN
       - 06-0331-VN
       - 06-0341-VN
+      - 08-0361-LT
       - 08-0371-LT
+      - 08-0421-US
       - 08-0441-RELAY
       - 08-0451-RELAY
       - 08-0471-DE
@@ -1378,7 +1382,6 @@ proxy-groups:
       - 06-0332-VN
       - 06-0342-VN
       - 08-0352-CA
-      - 08-0372-LT
       - 08-0422-US
       - 08-0432-US
       - 08-0452-RELAY
@@ -1449,6 +1452,7 @@ proxy-groups:
       - 08-0703-TW
       - 09-0743-JP
       - 09-0753-VN
+      - 23-1103-US
       - 39-1133-RELAY
       - 39-1483-NOWHERE
   - name: 测速4分组
@@ -1473,8 +1477,8 @@ proxy-groups:
       - 06-0334-VN
       - 08-0344-SG
       - 08-0374-FR
-      - 08-0404-LT
       - 08-0424-US
+      - 08-0434-US
       - 08-0444-TW
       - 08-0454-US
       - 08-0484-JP
@@ -1518,7 +1522,9 @@ proxy-groups:
       - 06-0325-VN
       - 06-0335-VN
       - 08-0345-SG
+      - 08-0365-NL
       - 08-0395-NL
+      - 08-0405-LT
       - 08-0425-US
       - 08-0435-US
       - 08-0445-RELAY
@@ -1560,6 +1566,7 @@ proxy-groups:
       - 06-0326-VN
       - 06-0336-VN
       - 08-0346-TW
+      - 08-0406-LT
       - 08-0416-US
       - 08-0446-RELAY
       - 08-0486-TW
@@ -1698,12 +1705,13 @@ proxy-groups:
       - 06-0319-VN
       - 06-0329-VN
       - 06-0339-VN
-      - 08-0369-LT
+      - 08-0399-LT
+      - 08-0469-FR
       - 08-0489-GB
       - 08-0499-GB
+      - 08-0539-HK
       - 08-0559-VN
       - 08-0569-VN
-      - 08-0579-GR
       - 08-0589-TW
       - 08-0599-TW
       - 08-0609-TW
@@ -1737,6 +1745,7 @@ proxy-groups:
       - 06-0320-VN
       - 06-0330-VN
       - 06-0340-VN
+      - 08-0370-LT
       - 08-0380-NL
       - 08-0420-US
       - 08-0490-GB
