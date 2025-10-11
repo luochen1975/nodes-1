@@ -201,7 +201,6 @@ proxies:
   - {name: 08-0452-RELAY, server: ip.sb, port: 8443, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: fofang.pages.dev}}, udp: true}
   - {name: 08-0454-US, server: map.wimax.cc, port: 8443, type: trojan, password: WyRE1b2elC, skip-cert-verify: true, udp: true}
   - {name: 08-0463-FI, server: fin.outlinebot1.ru, port: 5904, type: ss, cipher: chacha20-ietf-poly1305, password: 5TZnwPb23pQS39lIucspJw, udp: true}
-  - {name: 08-0469-FR, server: 51.68.191.233, port: 80, type: vmess, uuid: f0eda072-9ae8-494c-a495-215fa5729467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
   - {name: 08-0471-DE, server: 185.177.229.245, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1%252BihlfKg826H, udp: true}
   - {name: 08-0472-DE, server: 57.129.59.193, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-0484-JP, server: 116.206.93.165, port: 39975, type: vmess, uuid: bb892078-98ef-4321-edf4-4c408edd5ae2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -384,6 +383,7 @@ proxies:
   - {name: 08-0721-AU, server: louber.missionsec.us, port: 443, type: trojan, password: BAu7ZSyD3IZppnCOxCzaFXje3SECzZgX83e3x7yZA8SDCacyagKFlEO6O0AlTSwDDe4SF, sni: louber.missionsec.us, skip-cert-verify: true, udp: true}
   - {name: 08-0729-CN, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0730-CN, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-1545-US, server: 192.3.233.216, port: 16556, type: vmess, uuid: 600f0d3e-a25d-468b-c789-0b5baa2f52c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-1550-CN, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
   - {name: 09-0738-IE, server: 54.72.237.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-0739-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -412,7 +412,6 @@ proxies:
   - {name: 23-1092-FR, server: 146.59.55.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-1097-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 23-1102-GB, server: 195.22.157.104, port: 55700, type: trojan, password: 1sbtkLK7F3, sni: joon.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: joon.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: 23-1103-US, server: 51.81.203.233, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rs4.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 23-1104-IS, server: 212.192.214.159, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v%2523NSFP_LG_bJ, udp: true}
   - {name: 23-1107-SE, server: 91.92.40.78, port: 2060, type: vmess, uuid: 14d19b6f-42ba-467c-b90d-45b48d0d3fda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-1114-LT, server: 185.237.185.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -517,7 +516,8 @@ proxies:
   - {name: _油管：全网最强白嫖 169, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: _油管：全网最强白嫖 17, server: jpaz2.xmrth-node.xyz, port: 14025, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
   - {name: _油管：全网最强白嫖 170, server: 5.183.176.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 382, server: 5.183.176.96, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 381, server: 5.183.176.81, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 383, server: 89.31.126.177, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 384, server: 5.183.176.84, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 385, server: 14.29.124.174, port: 11002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管：全网最强白嫖 386, server: 5.183.176.80, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -815,7 +815,6 @@ proxy-groups:
       - 08-0452-RELAY
       - 08-0454-US
       - 08-0463-FI
-      - 08-0469-FR
       - 08-0471-DE
       - 08-0472-DE
       - 08-0484-JP
@@ -998,6 +997,7 @@ proxy-groups:
       - 08-0721-AU
       - 08-0729-CN
       - 08-0730-CN
+      - 08-1545-US
       - 08-1550-CN
       - 09-0738-IE
       - 09-0739-CN
@@ -1026,7 +1026,6 @@ proxy-groups:
       - 23-1092-FR
       - 23-1097-VN
       - 23-1102-GB
-      - 23-1103-US
       - 23-1104-IS
       - 23-1107-SE
       - 23-1114-LT
@@ -1131,7 +1130,8 @@ proxy-groups:
       - _油管：全网最强白嫖 169
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 170
-      - _油管：全网最强白嫖 382
+      - _油管：全网最强白嫖 381
+      - _油管：全网最强白嫖 383
       - _油管：全网最强白嫖 384
       - _油管：全网最强白嫖 385
       - _油管：全网最强白嫖 386
@@ -1447,7 +1447,6 @@ proxy-groups:
       - 08-0703-TW
       - 09-0743-JP
       - 09-0753-VN
-      - 23-1103-US
       - 39-1133-RELAY
       - 39-1483-NOWHERE
   - name: 测速4分组
@@ -1537,6 +1536,7 @@ proxy-groups:
       - 08-0685-TW
       - 08-0695-TW
       - 08-0705-TW
+      - 08-1545-US
       - 09-0745-JP
       - 39-1485-RELAY
   - name: 测速6分组
@@ -1693,7 +1693,6 @@ proxy-groups:
       - 06-0319-VN
       - 06-0329-VN
       - 06-0339-VN
-      - 08-0469-FR
       - 08-0489-GB
       - 08-0499-GB
       - 08-0559-VN
