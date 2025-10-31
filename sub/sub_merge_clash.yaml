@@ -1,43 +1,43 @@
 proxies:
-  - {name: 04-0484-HK, server: 103.219.195.237, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0485-SG, server: 43.160.193.245, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0486-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0487-US, server: 178.208.190.99, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0488-HK, server: 103.219.195.237, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0489-SG, server: 43.160.193.245, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0490-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0491-US, server: 178.208.190.99, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0492-HK, server: 103.219.195.237, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0493-SG, server: 43.160.193.245, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0494-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0495-US, server: 178.208.190.99, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0496-HK, server: 103.219.195.237, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0497-SG, server: 43.160.193.245, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0498-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0499-US, server: 178.208.190.99, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0500-HK, server: 103.219.195.237, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0501-SG, server: 43.160.193.245, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0502-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0503-US, server: 178.208.190.99, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0504-HK, server: 103.219.195.237, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0505-SG, server: 43.160.193.245, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0506-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0507-US, server: 178.208.190.99, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0508-HK, server: 103.219.195.237, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0509-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0510-US, server: 178.208.190.99, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0511-HK, server: 103.219.195.237, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0512-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0513-US, server: 178.208.190.99, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0514-HK, server: 103.219.195.237, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0515-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0516-US, server: 178.208.190.99, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0517-HK, server: 103.219.195.237, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0518-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0519-US, server: 178.208.190.99, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0520-HK, server: 103.219.195.237, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0521-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0522-US, server: 178.208.190.99, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0482-HK, server: 103.219.195.237, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0483-SG, server: 43.160.193.245, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0484-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0485-US, server: 178.208.190.99, port: 443, type: trojan, password: a79e089e-882e-3603-af3d-dacaa45ae7be, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0486-HK, server: 103.219.195.237, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0487-SG, server: 43.160.193.245, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0488-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0489-US, server: 178.208.190.99, port: 443, type: trojan, password: 19de81a2-e8f7-3780-ad08-d5b43962dc30, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0490-HK, server: 103.219.195.237, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0491-SG, server: 43.160.193.245, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0492-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0493-US, server: 178.208.190.99, port: 443, type: trojan, password: a3e18f02-00c4-3b94-8685-af72e7b74fa4, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0494-HK, server: 103.219.195.237, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0495-SG, server: 43.160.193.245, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0496-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0497-US, server: 178.208.190.99, port: 443, type: trojan, password: 9b485a9f-f1ee-3031-a7a4-514a0599b524, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0498-HK, server: 103.219.195.237, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0499-SG, server: 43.160.193.245, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0500-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0501-US, server: 178.208.190.99, port: 443, type: trojan, password: 4fa628c6-6249-35a5-9bf4-9982eca30185, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0502-HK, server: 103.219.195.237, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0503-SG, server: 43.160.193.245, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0504-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0505-US, server: 178.208.190.99, port: 443, type: trojan, password: da1bd14f-1afc-3a0d-9630-faa08a39f26d, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0506-HK, server: 103.219.195.237, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0507-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0508-US, server: 178.208.190.99, port: 443, type: trojan, password: afec2398-003f-32b5-ac36-aa36cefe645b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0509-HK, server: 103.219.195.237, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0510-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0511-US, server: 178.208.190.99, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0512-HK, server: 103.219.195.237, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0513-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0514-US, server: 178.208.190.99, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0515-HK, server: 103.219.195.237, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0516-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0517-US, server: 178.208.190.99, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0518-HK, server: 103.219.195.237, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0519-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0520-US, server: 178.208.190.99, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 05-0002-CN, server: 36.150.215.197, port: 2088, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 05-0004-SG, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 05-0011-RELAY, server: www.digitalocean.com, port: 443, type: trojan, password: trojan, sni: azadnet-9ya.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: azadnet-9ya.pages.dev}}, udp: true}
@@ -201,14 +201,19 @@ proxies:
   - {name: 08-0293-VN, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0294-NOWHERE, server: 221.128.195.7, port: 5135, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 08-0295-CN, server: 36.156.102.74, port: 43567, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 09-0303-US, server: 154.17.227.158, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
-  - {name: 09-0304-HK, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
-  - {name: 09-0305-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: 09-0306-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0307-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0308-US, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: nodes.830901.xyz}}, udp: true}
-  - {name: 09-0309-RELAY, server: 104.21.24.72, port: 80, type: vmess, uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
-  - {name: 09-0310-CN, server: usz1.fgmcx.top, port: 23903, type: vmess, uuid: be443689-bc64-49ff-85a5-8eecaa2235d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 09-0297-CN, server: hxfz940e90d9.nfwzdm.com, port: 42765, type: trojan, password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+  - {name: 09-0298-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+  - {name: 09-0299-US, server: 154.17.227.158, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
+  - {name: 09-0300-HK, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+  - {name: 09-0301-HK, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
+  - {name: 09-0304-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
+  - {name: 09-0305-PT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 09-0306-CN, server: 36.150.215.236, port: 487, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 09-0307-SG, server: sg006.421421.xyz, port: 20230, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: www.alibaba.com}}, udp: true}
+  - {name: 09-0308-RELAY, server: nnnnnnnnnnnnnn.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: nnnnnnnnnnnnnn.222769.xyz}}, udp: true}
+  - {name: 09-0309-RELAY, server: 104.19.44.188, port: 80, type: vmess, uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl}, udp: true}
+  - {name: 09-0310-DE, server: 5.75.202.76, port: 55985, type: vmess, uuid: 7eaf60fc-c6a7-4467-9c00-bd0efe4f1248, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 09-0524-US, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: nodes.830901.xyz}}, udp: true}
   - {name: 10-0357-HK, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 14-0363-VN, server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 15-0364-US, server: update.time.info, port: 1, type: ss, cipher: aes-256-gcm, password: !<str> 0, udp: true}
@@ -248,8 +253,6 @@ proxies:
   - {name: 17-0467-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
   - {name: 17-0472-RU, server: 5.129.201.43, port: 23256, type: ss, cipher: chacha20-ietf-poly1305, password: yALtyAtHfbw1Vu4pqh6wUc, udp: true}
   - {name: 17-0474-DE, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LVBYRkSkHlTqebSJrGc2C7, udp: true}
-  - {name: 17-0480-TR, server: 193.124.46.134, port: 8441, type: trojan, password: tunnel-astrovpn_official018, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
-  - {name: 98-0526-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: _油管：全网最强白嫖, server: 625hk01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk01.fx6688.top}}, udp: true}
   - {name: _油管：全网最强白嫖 10, server: 159.27.90.254, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua}, udp: true}
   - {name: _油管：全网最强白嫖 100, server: 89.31.126.171, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
