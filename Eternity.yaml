@@ -137,7 +137,6 @@ proxies:
   - {name: 06-0170-VN, server: 103.186.155.109, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0171-VN, server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0173-VN, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 07-0174-HK, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 07-0177-CN, server: 36.151.251.38, port: 25891, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0178-CN, server: 36.150.215.248, port: 8041, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0179-RELAY, server: 185.146.173.16, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)"}, udp: true}
@@ -179,6 +178,7 @@ proxies:
   - {name: 08-0241-VN, server: 103.186.154.163, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0242-VN, server: 103.186.155.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0243-RELAY, server: wto.org, port: 443, type: vmess, uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm, headers: {Host: wto.org}}, udp: true}
+  - {name: 09-0245-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 09-0252-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
   - {name: 10-0283-CN, server: 36.150.215.247, port: 1251, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 10-0284-CN, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -230,13 +230,9 @@ proxies:
   - {name: 16-0377-HK, server: vn1.web3sp.com, port: 51069, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 16-0378-HK, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 17-0384-RELAY, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fyamtekodasayahhh", headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: "17-0389-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN", server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2AJogKuFsiVa5SrhD7vPn8P28se9DBAT564XTGDnE9h5HZPh593bzJRxYavWzryacr6CAN5nHFm8RpsHfqRnasyhbsRzY4Np, udp: true}
-  - {name: 17-0390-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: ivQYTiSyUGyRiVhqcbaEtMjXC8djrscPbnhjnU9oTEuVwh6LhJSkQNYjxtKx5X2iRRCJHu7e3UFwW9S9iAyhP2rX6ot6Lc7x, udp: true}
-  - {name: 17-0393-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: QLXkEq597i3oGAGzjE4qS64uPGhjxWpPiqwwBArKbsqYPUNpQBwdgHL6KoDSRGE9bjSdn3p4UaDYMVm6s1wMoifavnirR5N8, udp: true}
-  - {name: 17-0399-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: akvJQzZCaTdisSyuSy3aRmyvKC53X1d3PaAsb9xU8n5TY9hSB1DK5e6SPm921igHcRsCTCvf1pWufTJ5Li8PiiQG4vYdyyM7, udp: true}
   - {name: 17-0401-IN, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0404-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0409-CA, server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: "17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN", server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0411-MT, server: 171.22.254.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0412-MA, server: 188.214.157.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0414-MA, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
@@ -252,7 +248,6 @@ proxies:
   - {name: 17-0426-ID, server: 38.60.171.254, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0427-RELAY, server: tm-azarbayjab1.1.workers.dev, port: 443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
   - {name: 17-0429-VN, server: 38.54.31.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0431-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
   - {name: 17-0432-TW, server: official.taipeicitygovernment.com.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
   - {name: 17-0434-BH, server: 154.205.146.153, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0436-HK, server: br1.web3sp.com, port: 51059, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
@@ -635,7 +630,12 @@ proxies:
   - {name: _油管：全网最强白嫖 435, server: cdn01.122888.xyz, port: 26000, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
   - {name: _油管：全网最强白嫖 436, server: cdn01.122888.xyz, port: 26001, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
   - {name: _油管：全网最强白嫖 437, server: cdn01.122888.xyz, port: 26000, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
+  - {name: _油管：全网最强白嫖 89, server: 5.183.176.91, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 90, server: 5.183.176.83, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 91, server: 89.31.126.171, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 92, server: 89.31.126.147, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 93, server: 89.31.126.171, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 94, server: 5.183.176.84, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 95, server: 5.183.176.91, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 96, server: 5.183.176.91, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 97, server: 5.183.176.84, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -752,7 +752,6 @@ proxy-groups:
       - 06-0170-VN
       - 06-0171-VN
       - 06-0173-VN
-      - 07-0174-HK
       - 07-0177-CN
       - 07-0178-CN
       - 07-0179-RELAY
@@ -794,6 +793,7 @@ proxy-groups:
       - 08-0241-VN
       - 08-0242-VN
       - 08-0243-RELAY
+      - 09-0245-VN
       - 09-0252-KR
       - 10-0283-CN
       - 10-0284-CN
@@ -845,13 +845,9 @@ proxy-groups:
       - 16-0377-HK
       - 16-0378-HK
       - 17-0384-RELAY
-      - 17-0389-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 17-0390-US
-      - 17-0393-US
-      - 17-0399-US
       - 17-0401-IN
       - 17-0404-CR
-      - 17-0409-CA
+      - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0411-MT
       - 17-0412-MA
       - 17-0414-MA
@@ -867,7 +863,6 @@ proxy-groups:
       - 17-0426-ID
       - 17-0427-RELAY
       - 17-0429-VN
-      - 17-0431-NL
       - 17-0432-TW
       - 17-0434-BH
       - 17-0436-HK
@@ -1250,7 +1245,12 @@ proxy-groups:
       - _油管：全网最强白嫖 435
       - _油管：全网最强白嫖 436
       - _油管：全网最强白嫖 437
+      - _油管：全网最强白嫖 89
+      - _油管：全网最强白嫖 90
+      - _油管：全网最强白嫖 91
+      - _油管：全网最强白嫖 92
       - _油管：全网最强白嫖 93
+      - _油管：全网最强白嫖 94
       - _油管：全网最强白嫖 95
       - _油管：全网最强白嫖 96
       - _油管：全网最强白嫖 97
@@ -1341,7 +1341,6 @@ proxy-groups:
       - 16-0371-RELAY
       - 17-0401-IN
       - 17-0411-MT
-      - 17-0431-NL
       - 17-0445-KRtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
       - 17-0451-FI
   - name: 测速2分组
@@ -1393,7 +1392,6 @@ proxy-groups:
       - 10-0333-VN
       - 10-0353-VN
       - 16-0373-HK
-      - 17-0393-US
       - 17-0423-RELAY
   - name: 测速4分组
     type: url-test
@@ -1410,7 +1408,6 @@ proxy-groups:
       - 06-0144-CN
       - 06-0154-VN
       - 06-0164-VN
-      - 07-0174-HK
       - 07-0184-HK
       - 07-0194-HK
       - 07-0224-KR
@@ -1443,6 +1440,7 @@ proxy-groups:
       - 07-0205-RELAY
       - 07-0225-CN
       - 08-0235-RELAY
+      - 09-0245-VN
       - 10-0285-CN
       - 10-0325-VN
       - 10-0335-VN
@@ -1557,9 +1555,7 @@ proxy-groups:
       - 10-0319-VN
       - 10-0339-FR
       - 10-0359-VN
-      - 17-0389-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 17-0399-US
-      - 17-0409-CA
+      - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0429-VN
   - name: 测速10分组
     type: url-test
@@ -1581,8 +1577,7 @@ proxy-groups:
       - 10-0310-VN
       - 10-0320-VN
       - 10-0330-VN
-      - 17-0389-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 17-0390-US
+      - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0420-EG
   - name: 广告拦截
     type: select
