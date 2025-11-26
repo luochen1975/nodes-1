@@ -83,7 +83,7 @@ proxies:
   - {name: 06-0060-TW, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 74407e61-d605-48f7-bc19-f1154c91043f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 06-0063-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: 7125fade-b916-4c65-8827-95025fe97d8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0064-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: da5d9d7c-f8a1-4b88-80c5-ca05dd99e8be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-0065-HK, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
+  - {name: "06-0065-HKtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA", server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
   - {name: 06-0066-CN, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 456f0566-165e-4260-ab1f-39672028c57c, udp: true}
   - {name: 06-0067-CN, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d1eb2f6d-7017-4682-8394-1a29aebcbb7f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 06-0068-CN, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: ee952ac3-adce-428a-9948-00722abd8a61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -241,7 +241,6 @@ proxies:
   - {name: 17-0416-EG, server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0417-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0418-BO, server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0419-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 17-0420-EG, server: 38.54.59.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0422-NG, server: 185.255.123.166, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0423-RELAY, server: www.visa.com.sg, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
@@ -251,15 +250,10 @@ proxies:
   - {name: 17-0427-RELAY, server: tm-azarbayjab1.1.workers.dev, port: 443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
   - {name: 17-0429-VN, server: 38.54.31.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0432-TW, server: official.taipeicitygovernment.com.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
-  - {name: 17-0433-NL, server: 212.34.140.184, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
   - {name: 17-0434-BH, server: 154.205.146.153, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0435-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
   - {name: 17-0436-HK, server: br1.web3sp.com, port: 51059, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 17-0437-HK, server: hk3.web3sp.com, port: 50039, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 17-0442-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: 17-0446-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
-  - {name: "17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA", server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
-  - {name: 17-0451-FI, server: 38.244.136.233, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
   - {name: _油管：全网最强白嫖, server: 625hk01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk01.fx6688.top}}, udp: true}
   - {name: _油管：全网最强白嫖 10, server: 159.27.90.254, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua}, udp: true}
   - {name: _油管：全网最强白嫖 100, server: 89.31.126.171, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -635,7 +629,13 @@ proxies:
   - {name: _油管：全网最强白嫖 435, server: cdn01.122888.xyz, port: 26000, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
   - {name: _油管：全网最强白嫖 436, server: cdn01.122888.xyz, port: 26001, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
   - {name: _油管：全网最强白嫖 437, server: cdn01.122888.xyz, port: 26000, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: MGY2YzYxNDU0Lm1pY3Jvc29mdC5jb20, udp: true}
+  - {name: _油管：全网最强白嫖 88, server: 5.183.176.94, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
+  - {name: _油管：全网最强白嫖 90, server: 5.183.176.83, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 91, server: 89.31.126.171, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 92, server: 89.31.126.147, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 93, server: 89.31.126.171, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 94, server: 5.183.176.84, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 95, server: 5.183.176.91, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 96, server: 5.183.176.91, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: _油管：全网最强白嫖 97, server: 5.183.176.84, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -698,7 +698,7 @@ proxy-groups:
       - 06-0060-TW
       - 06-0063-HK
       - 06-0064-HK
-      - 06-0065-HK
+      - 06-0065-HKtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
       - 06-0066-CN
       - 06-0067-CN
       - 06-0068-CN
@@ -856,7 +856,6 @@ proxy-groups:
       - 17-0416-EG
       - 17-0417-CY
       - 17-0418-BO
-      - 17-0419-CY
       - 17-0420-EG
       - 17-0422-NG
       - 17-0423-RELAY
@@ -866,15 +865,10 @@ proxy-groups:
       - 17-0427-RELAY
       - 17-0429-VN
       - 17-0432-TW
-      - 17-0433-NL
       - 17-0434-BH
-      - 17-0435-NL
       - 17-0436-HK
       - 17-0437-HK
-      - 17-0442-NL
       - 17-0446-DE
-      - 17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
-      - 17-0451-FI
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 100
@@ -1250,7 +1244,13 @@ proxy-groups:
       - _油管：全网最强白嫖 435
       - _油管：全网最强白嫖 436
       - _油管：全网最强白嫖 437
+      - _油管：全网最强白嫖 88
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 90
+      - _油管：全网最强白嫖 91
+      - _油管：全网最强白嫖 92
       - _油管：全网最强白嫖 93
+      - _油管：全网最强白嫖 94
       - _油管：全网最强白嫖 95
       - _油管：全网最强白嫖 96
       - _油管：全网最强白嫖 97
@@ -1323,6 +1323,7 @@ proxy-groups:
       - 06-0011-CN
       - 06-0031-CN
       - 06-0051-CN
+      - 06-0065-HKtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
       - 06-0071-CN
       - 06-0081-CN
       - 06-0091-CN
@@ -1341,8 +1342,6 @@ proxy-groups:
       - 16-0371-RELAY
       - 17-0401-IN
       - 17-0411-MT
-      - 17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
-      - 17-0451-FI
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1368,7 +1367,6 @@ proxy-groups:
       - 17-0412-MA
       - 17-0422-NG
       - 17-0432-TW
-      - 17-0442-NL
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1394,7 +1392,6 @@ proxy-groups:
       - 10-0353-VN
       - 16-0373-HK
       - 17-0423-RELAY
-      - 17-0433-NL
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1433,7 +1430,7 @@ proxy-groups:
       - 05-0455-NL
       - 06-0035-CN
       - 06-0055-HK
-      - 06-0065-HK
+      - 06-0065-HKtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
       - 06-0075-CN
       - 06-0085-CN
       - 06-0135-CN
@@ -1449,7 +1446,6 @@ proxy-groups:
       - 16-0375-VN
       - 17-0415-RELAY
       - 17-0425-RELAY
-      - 17-0435-NL
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1559,7 +1555,6 @@ proxy-groups:
       - 10-0339-FR
       - 10-0359-VN
       - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 17-0419-CY
       - 17-0429-VN
   - name: 测速10分组
     type: url-test
@@ -1583,7 +1578,6 @@ proxy-groups:
       - 10-0330-VN
       - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0420-EG
-      - 17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
   - name: 广告拦截
     type: select
     proxies:
