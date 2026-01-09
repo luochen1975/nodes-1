@@ -253,7 +253,7 @@ proxies:
   - {name: 17-0434-BH, server: 154.205.146.153, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0436-HK, server: br1.web3sp.com, port: 51059, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 17-0437-HK, server: hk3.web3sp.com, port: 50039, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 17-0442-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 17-0440-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: 17-0446-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
   - {name: "17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA", server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: _油管：全网最强白嫖, server: 625hk01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk01.fx6688.top}}, udp: true}
@@ -868,7 +868,7 @@ proxy-groups:
       - 17-0434-BH
       - 17-0436-HK
       - 17-0437-HK
-      - 17-0442-NL
+      - 17-0440-NL
       - 17-0446-DE
       - 17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
       - _油管：全网最强白嫖
@@ -1367,7 +1367,6 @@ proxy-groups:
       - 17-0412-MA
       - 17-0422-NG
       - 17-0432-TW
-      - 17-0442-NL
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1579,6 +1578,7 @@ proxy-groups:
       - 10-0330-VN
       - 17-0409-CAtrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0420-EG
+      - 17-0440-NL
       - 17-0450-JPtrojan//D3OJA7xY5U@209.200.246.5310785?allowInsecure=1&sni=cloudflare.com#17-0391-CA
   - name: 广告拦截
     type: select
